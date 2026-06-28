@@ -13,7 +13,7 @@ Outputs CSV:
 timestamp,temp_C,temp_F,humidity
 
 LED Indicators:
-Red   -> Temperature >55°C OR Humidity >80%
+Red   -> Temperature >35°C OR Humidity >80%
 Green -> Normal Conditions
 -------------------------------------------------------
 */
@@ -60,7 +60,7 @@ void loop() {
   Serial.print(",");
   Serial.println(humidity);
 
-  if (tempC > 55 || humidity > 80) {
+  if (tempC > 35 || humidity > 80) {
 
     digitalWrite(redLED, HIGH);
     digitalWrite(greenLED, LOW);

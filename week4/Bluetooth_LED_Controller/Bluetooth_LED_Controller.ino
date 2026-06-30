@@ -1,8 +1,8 @@
 /*
 -------------------------------------------------------
 Project: Bluetooth LED Controller (HC-05 + Arduino)
-Author: Your Name
-Date: 28-06-2026
+Author: Swarnava Dey
+Date: 30-06-2026
 
 Description:
 - Controls Red, Green, and Blue LEDs using Bluetooth

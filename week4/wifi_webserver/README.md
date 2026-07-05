@@ -18,7 +18,7 @@ The web page automatically refreshes every 10 seconds and allows the user to con
 
 ## Circuit Connections
 
-### DHT11
+### DHT22
 
 | DHT22 Pin | ESP32 Pin |
 | --------- | --------- |

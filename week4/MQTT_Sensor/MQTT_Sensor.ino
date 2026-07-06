@@ -32,7 +32,7 @@ DHTesp dht;
 const int DHT_PIN = 15;
 const int LED_PIN = 2;
 
-// Change YourName to your own name
+
 const char* tempTopic = "iitjammu/summer26/SwarnavaDey/temperature";
 const char* humTopic  = "iitjammu/summer26/SwarnavaDey/humidity";
 const char* ledTopic  = "iitjammu/summer26/SwarnavaDey/led_control";
